@@ -1,0 +1,233 @@
+body, p {
+	font-family: "Gotham SSm A", "Gotham SSm B", Arial, sans-serif
+}
+
+body {
+	font-size: 18px;
+	margin: 0
+}
+
+h1, h2 {
+	font-weight: 200
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto
+}
+
+p {
+	font-weight: 300
+}
+
+
+a {
+	color: #563D82
+}
+
+.splash {
+	background-color: #338720;
+	color: #fff;
+	height: 450px;
+	display: table;
+	width: 100%;
+	margin-top: 75px;
+}
+
+.splash-text-container {
+	max-width: 540px;
+	margin: 0 auto;
+}
+
+.modules {
+	display: table;
+	width: 100%
+}
+
+.modules p {
+	font-size: 14px
+}
+
+.modules h2,
+.modules p {
+	padding-left: 15px
+}
+
+.modules-left h2 {
+	margin-bottom: 10px
+}
+
+.modules-left,
+.modules-right {
+	padding: 40px 0
+}
+
+.modules-right {
+	padding: 40px 0 40px 18px
+}
+
+.social-media-container {
+	text-align: left
+}
+
+@media (min-width:1000px) {
+	.modules-left .cta-container {
+		margin-left: 0!important
+	}
+	.modules-right .cta-container {
+		padding-left: 20px!important
+	}
+}
+
+.btnlink, button {
+	text-decoration: none
+}
+
+.splash-content h3 {
+	margin-bottom: 0;
+	margin-top: 15px
+}
+
+.splash-content p {
+	margin-top: 10px;
+	margin-bottom: 15px
+}
+
+.splash-content ul {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	line-height: 30px;
+	margin-left: 5px
+}
+
+footer {
+	font-size: 11px;
+	background-color: #eee;
+	border-top: 3px solid #43B02A;
+	padding: 30px 70px
+}
+.icon-mobile {
+	display: none
+}
+
+.icon-desktop {
+	display: inline-block;
+	margin-bottom: 15px
+}
+
+.cta-container {
+	margin: 0 auto;
+	width: 325px
+}
+
+.mod-container {
+	display: inline-block;
+	width: 75%
+}
+
+.splash button {
+	font-size: 18px
+}
+
+button {
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: 40px;
+	border-radius: 3px;
+	font-size: 14px;
+	background-color: #fff;
+	color: #338720;
+	cursor: pointer;
+	border: none;
+	box-shadow: none
+}
+
+.modules button {
+	background-color: #338720;
+	color: #fff;
+	margin-top: 10px
+}
+
+.modules-right img {
+	margin-bottom: 3px
+}
+
+.modules-left, .modules-right {
+	display: inline-block;
+	width: 45%
+}
+
+.modules-right h2 {
+	margin-top: 15px
+}
+
+.ie .modules button {
+	margin-top: 20px
+}
+
+@media (max-width:1000px) {
+	.splash-text-container {
+		max-width: none
+	}
+	.modules-left h2,
+	.modules-right h2 {
+		margin-bottom: 15px
+	}
+	.modules-right img {
+		padding-bottom: 10px
+	}
+	.icon-mobile {
+		display: block
+	}
+	.cta-container {
+		margin: 0 auto;
+		width: 100%
+	}
+	.mod-container {
+		width: 100%
+	}
+	.icon-desktop {
+		display: none!important
+	}
+	.splash-content {
+		position: relative;
+		padding-right: 0
+	}
+	.splash-content ul {
+		width: 93%
+	}
+	.modules h2, .modules p {
+		text-align: center
+	}
+	.modules p {
+		font-size: 14px
+	}
+	.modules-left, .modules-right {
+		display: block;
+		padding: 30px;
+		width: initial
+	}
+	.container {
+		width: 100%
+	}
+	.modules-right {
+		padding-top: 0
+	}
+	.modules img {
+		display: block;
+		margin: auto
+	}
+	.splash {
+		height: initial
+	}
+	.splash-content h1 {
+		font-size: 39px
+	}
+	footer {
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-top: 10px
+	}
+}
